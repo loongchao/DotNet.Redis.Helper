@@ -61,7 +61,7 @@ namespace Redis.Helper
             RedisOptions = new RedisOptions()
             {
                 EndPoints = new string[] { "127.0.0.1", "6379" },
-                Password = "eims123456",
+                Password = "123456",
                 DbIndex = 0
             };
         }
