@@ -60,7 +60,7 @@ namespace Redis.Helper
         {
             RedisOptions = new RedisOptions()
             {
-                EndPoints = new string[] { "test-db.paiming.net", "6379" },
+                EndPoints = new string[] { "127.0.0.1", "6379" },
                 Password = "eims123456",
                 DbIndex = 0
             };
